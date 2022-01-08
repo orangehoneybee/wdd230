@@ -1,3 +1,8 @@
+
+html {
+  background-color: #3b3f40;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
@@ -11,8 +16,8 @@ body {
     margin:0 auto;
 }
 header, footer {
-    background-color: #3b3f40;
-    color: #01200f;
+    background-color: #104f55;
+    color: #FFFFFF;
     padding: 8px;
     border-radius: 15px;
 }
