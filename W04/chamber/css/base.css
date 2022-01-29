@@ -187,7 +187,7 @@ body {
 
   .home-bg-img::before{
     content:'';
-    background-image: url("images/ruidus-clara-daly.jpg");
+    background-image: url("W04/chamber/images/ruidus-clara-daly.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
