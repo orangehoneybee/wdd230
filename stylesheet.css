@@ -34,6 +34,9 @@ main h2 {
 a {
   color: #EB9F98;
 }
+a.visited {
+  color:  #6fa8dc;
+}
 .profile {
     float: right;
     box-shadow: 0 0 17px black;
