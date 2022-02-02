@@ -1,0 +1,72 @@
+html {
+    background-color: #3b3f40;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1vw;
+  }
+  #index-main {
+      max-width: 800px;
+      margin:0 auto;
+  }
+  header, footer {
+      background-color: #104f55;
+      color: #FFFFFF;
+      padding: 8px;
+      border-radius: 15px;
+  }
+  header h1 {
+      font-size: 32px;
+      padding-left: 95px;
+  }
+  main {
+      padding:0 15px;
+  }
+  main h2 {
+      border-bottom: 1px solid black;
+  }
+  a {
+    color: #EB9F98;
+  }
+  a.visited {
+    color:  #6fa8dc;
+  }
+  .profile {
+      float: right;
+      box-shadow: 0 0 17px black;
+      max-width: 138px;
+  }
+  footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
+      color: #6fa8dc;
+  }
+  footer a:hover {
+      color:#EB9F98;
+  }
+  footer {
+      clear:both;
+      text-align:center;
+  }
+  footer p.legal {
+      margin-bottom: 9px;
+      font-size:.9em;
+  }
+  footer p.highlight {
+      color:yellow;
+      font-size: .8em;
+      margin-top:0;
+  }
+  .banner {
+      background-color:#1D909A;
+      color:#FFFFFF;
+      text-align:center;
+      padding: 10px 10px;
+      margin: 10px auto;
+  }
+  .food {
+      font-size:35px;
+  }
