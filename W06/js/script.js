@@ -23,3 +23,13 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+
+// special msg for mon and tues
+
+  var currentDate = new Date();
+  weekdayValue = currentDate.getDay();
+if (weekdayValue == 1 || weekdayValue ==2){
+  spclmsg = "🤝🏼Come join us for the chamber meet and greet on Conthsen 2 hours past sunset";
+}
+document.querySelector('#spclmsg').textContent = spclmsg;
