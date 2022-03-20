@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2C2F33;
+  }
+
+  .banner {
+    text-align: center;
+    background-color:rgb(78, 89, 102);
+    width: 100%;
+    padding: 10px 3px;
+    margin: 0;
+  }
+
+  #spclmsg {
+    color: rgb(78, 89, 102);
+    font-size: .9em;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(123, 63, 166);
+    width: 100%;
+    text-align:center;
+  }
+
+  .topdiv {
+    background-color: #bb3bdb;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+    margin: auto;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1vw;
+  }
+
+/* NAVIGATION ***************** */
+
+button#ham {
+  justify-content: flex-start;
+  align-self: center;
+  text-align: center;
+  border: 1px solid rgb(78, 8, 84);
+  border: none;
+  border-radius: 4px;
+  font-size: 2em;
+  color: rgb(92, 10, 99);;
+  background-color: transparent;
+  max-width: 2.0em;
+  height: 44px;
+  width: 44px;
+  padding: 0 10px 0 0;
+}
+nav {
+  display:flex;
+  justify-content:left;
+  justify-content:center;
+  align-items: center;
+  margin: 2vh 0;
+  color: #f2f2f2;
+  margin:0;
+  z-index: 1000;
+  position: absolute;
+  top: 75px;
+ /*width: 200px; */
+  width: 100%;
+  right: 0;
+  text-align: left;
+  background-color: rgb(78, 8, 84);
+}
+nav ul {
+display: none;
+}
+nav ul li a {
+display: block;
+padding: .8rem 0vw;
+text-decoration: none;
+color: #f2f2f2;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+font-size: 1rem;
+font-family: "merriweather", serif;
+letter-spacing: .1em;
+}
+nav ul li a:link {
+color: white;
+}
+nav ul li a.active  {
+  background-color: rgb(121, 13, 130);
+  color: white;
+}
+nav ul li a:hover {
+background-color: rgba(0,0,0,.3);
+background-color: transparent;
+color: white;
+  --d: 75%;
+}
+
+nav ul.open {
+display: block;
+
+}
+nav ul.open li {
+display: block;
+
+}
+
+nav ul.open li a {
+display: block;
+padding: 0.75rem;
+text-align: center;
+text-decoration: none;
+color: white;
+font-weight: 700;
+transition: 0.5s;
+font-size: clamp(1rem, 2vmin, 1.5rem);
+min-width: 100%;
+width: 100%;
+max-width: 100%;
+
+}
+nav#primaryNav.navigation.open ul li {
+width: 100%;
+display:block;
+}
+nav ul.open li a:hover {
+  background-color: rgb(92, 10, 99);
+  color: white;
+  --d: 75%;
+  width: 100%;
+}
+nav ul.open li a:active {
+color: rgb(121, 13, 130);
+  --d: 75%;
+  width: 100%;
+}
+#ham span:nth-child(1) {display:block}
+#ham span:nth-child(2) {display:none}
+
+#ham.open span:nth-child(1) {display:none}
+#ham.open span:nth-child(2) {display:block}
+
+  header {
+	background-color: rgb(78, 89, 102);
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+.heading {
+	display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 10px 0;
+  align-self:flex-start;
+  text-align: left;
+  min-width: 128px;
+}
+
+.heading h1 {
+	justify-content: flex-start;
+  text-align:left;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: rgb(139, 34, 134);
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  text-align:right;
+  margin: 0 0;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
+}
+
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: 0.9rem;
+	}
+}
+
+.date,
+aside {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 24px;
+  width: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1vh 1vw;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #697897;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
