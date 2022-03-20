@@ -1,0 +1,145 @@
+{    "localbusiness": [
+    {
+        "bizname": "Cobalt Reserve",
+        "address": "Within the Scholar Ward",
+        "city": "Westruun",
+        "website": "https://criticalrole.fandom.com/wiki/Westruun#Scholar_Ward",
+        "contact": "High Curator Greisalda Cassios",
+        "membership": "gold",
+        "order": 1,
+        "logourl": "/images/Cobalt_Soul_-_Claudio_Pozas.webp"
+    },
+    {
+        "bizname": "The Cobalt Vault",
+        "address": "Within the Duskmeadow District",
+        "city": "Vasselheim, Issylra",
+        "website": "https://criticalrole.fandom.com/wiki/Vasselheim#The_Duskmeadow",
+        "contact": "Seer Gloria Ios",
+        "membership": "silver",
+        "order": 2,
+        "logourl": "images/RavenQueen.webp"
+    },
+    {
+        "bizname": "Wardens of Syngorn",
+        "address": "Emerald Citadel",
+        "city": "Syngorn",
+        "website": "https://criticalrole.fandom.com/wiki/Wardens_of_Syngorn",
+        "contact": "Enchanter Yurek Windkeeper",
+        "membership": "bronze",
+        "order": 3,
+        "logourl":"images/Wardens_of_syngorn.JPG.webp"
+    },
+    {
+        "bizname": "Tal'Dorei Council",
+        "address": "Within the Cloudtop District",
+        "city": "Emmon",
+        "website": "https://criticalrole.fandom.com/wiki/Tal%27Dorei_Council",
+        "contact": "Allura Vysoren",
+        "membership": "gold",
+        "order": 4,
+        "logourl": "images/TC.webp"
+    },
+    {
+        "bizname": "House of Kraghammer",
+        "address": "Within the Center Slab",
+        "city": "Kraghammer",
+        "website": "https://criticalrole.fandom.com/wiki/Kraghammer#The_Center_Slab",
+        "contact": "Drake Thunderbrand",
+        "membership": "silver",
+        "order": 5,
+        "logourl": "images/hok.webp"
+    },
+    {
+        "bizname": "Dwendalian Empire",
+        "address": "Within the Valley Archive of the Cobalt Soul in the Interstead Sprawl",
+        "city": "Zadash",
+        "website": "https://criticalrole.fandom.com/wiki/Zadash",
+        "contact": "High Curator Loman Turray",
+        "membership": "bronze",
+        "order": 6,
+        "logourl": "images/DE.webp"
+    },
+    {
+        "bizname": "Soltryce Academy",
+        "address": "Within the Shimmer Ward",
+        "city": "Rexentrum",
+        "website": "https://criticalrole.fandom.com/wiki/Soltryce_Academy",
+        "contact": "Headmaster Zivan Margolin or Professor Caleb Widogast",
+        "membership": "gold",
+        "order": 7,
+        "logourl": "images/CA.webp"
+    },
+    {
+        "bizname": "The Kryn Dynasty",
+        "address": "Within the Lucid Bastion in the Firmaments",
+        "city": "Rosohna, Xhorhas",
+        "website": "https://criticalrole.fandom.com/wiki/Kryn_Dynasty",
+        "contact": "Essek Theyless",
+        "membership": "silver",
+        "order": 8,
+        "logourl": "images/KD.webp"
+    },
+    {
+        "bizname": "Clovis Concord",
+        "address": "Archive of the Cobalt Soul",
+        "city": "Port Damali",
+        "website": "https://criticalrole.fandom.com/wiki/Clovis_Concord",
+        "contact": "Olesya Lapidus",
+        "membership": "bronze",
+        "order": 9,
+        "logourl": "images/CC.webp"
+    },
+    {
+        "bizname": "Open Quay",
+        "address": "Tidepeak Tower",
+        "city": "Nicodranas",
+        "website": "https://criticalrole.fandom.com/wiki/Nicodranas",
+        "contact": "Yussa Errenis",
+        "membership": "gold",
+        "order": 10,
+        "logourl": "images/MC.webp"
+    },
+    {
+        "bizname": "Ank'Harel",
+        "address": "Within the Circlet Walk",
+        "city": "Marquet",
+        "website": "https://criticalrole.fandom.com/wiki/Ank%27Harel",
+        "contact": "J'mon Sa Ord",
+        "membership": "silver",
+        "order": 11,
+        "logourl": "images/logos/A.webp"
+    },
+    {
+        "bizname": "Starpoint Convervatory",
+        "address": "Within the Aerie Spire",
+        "city": "Jrusar",
+        "website": "https://criticalrole.fandom.com/wiki/Jrusar#Aerie_Spire",
+        "contact": "Armand Treshi",
+        "membership": "gold",
+        "order": 12,
+        "logourl": "images/J1.webp"
+    },
+    {
+        "bizname": "Dayal Hall",
+        "address": "Within the Core Spire",
+        "city": "Jrusar",
+        "website": "https://criticalrole.fandom.com/wiki/Dayal_Hall",
+        "contact": "Ajit Dayal",
+        "membership": "silver",
+        "order": 13,
+        "logourl": "images/J2.webp"
+    },
+    {
+        "bizname": "Chandei Quorum",
+        "address": " at the very top of the Core Spire.",
+        "city": "Jrusar",
+        "website": "https://criticalrole.fandom.com/wiki/Chandei_Quorum",
+        "contact": "Gavis Aranda",
+        "membership": "bronze",
+        "order": 14,
+        "logourl": "images/J3.webp"
+        }
+
+ ]
+
+ }

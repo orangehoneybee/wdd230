@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<script src="js/script.js"></script>
+<script src="js/visits.js"></script>
+</head>
+<body>
+    <div class="banner"><span id="spclmsg"></span></div>
+
+    <header class="clearfix">
+        <picture class="logo">
+            <img src="images/logo.png" alt="logo">
+        </picture>
+
+        <section class="heading">
+            <h1>Arcana Pansophical</h1>
+            <q class="m">Tal’Dorei’s greatest mages</q>
+        </section>
+
+        <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook.svg" alt="facebook" class="fa fa-facebook"/></a>
+        <a href="https://twitter.com"><img src="images/twitter.svg" alt="twitter" class="fa fa-twitter"/></a>
+        </div>
+        
+        <button id="ham" class="hambutton"><span>&#9776;</span>
+          <span class="xbutton">X</span></button>
+          <nav>
+            <ul id="primaryNav" class="navigation">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="discover.html">Discover</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="daydate"><p class="time"><span id="currentdate"></span></p></div>
+    <main class="home-grid">
+        <div class="hero">
+         <picture class="hero-img">
+           <source srcset="images/IMGP8973_med.webp" media="(min-width: 35rem)">
+           <source srcset="images/IMGP8973_lg.webp" media="(min-width: 63.5rem)" >
+           <img src="images/IMGP8973_sm.webp" alt="hero image practice">
+         </picture>
+           <h2>Visit Blanding <br/> Discover<br/> Earth's Secrets</h2>
+        <div class="call"><a href="join.html">Join our Chamber</a></div></div>
+ 
+   <div class="news">
+      <h3>News Minute</h3>
+    <div class="news-body">
+ <p><span class="greeting">Dear Business Community Members:</span>
+ Mark your calendars and plan to join us for our <b>April Chamber lunch meeting.</b> <b>Thursday, April 10th, City Council Meeting Hall</b>, Blanding City Hall,
+ 1:00 lunch and presentation. <b>Guest speaker John Johns, from National Forest System</b>. They will give tips on great places to encourage visitors to frequent.</p>
+ 
+ </div></div>
+       <div class="join" ><button onclick="window.location.href='join.html';">Join Today!</button><p>Discover how you can join the Chamber and how it can benefit your organization.</p></div>
+       <div class="events"><h3>Upcoming Events</h3>
+    <ul>
+     <li class="upevents"><a href="#" ><span class="md">Apr 22</span><span class="up">Awards-Installataion</span></a></li>
+     <li class="upevents"><a href="#"><span class="md">May 15</span><span class="up">Connect 4 Lunch</span></a></li>
+     <li class="upevents"><a href="#"><span class="md">June 7</span><span class="up">Tech Summit</span></a></li>
+     </ul></div>
+      <div class="weather weather-grid">
+        <h3>Blanding Weather</h3>
+        <div class="icon-pic"><span id="icon-src"></span></div>
+        <div><figure><img src="images/sun.GIF" alt="blandingweather" id="weathericon"/><figcaption></figcaption></figure></div>
+       <hr class="color">
+       <p>Temperature: <span id="current-temp"></span>&#8457;</p>
+       <p><span id="windspeed"></span></p>
+       <p><span class="humidity"></span></p>
+       <p><span id="windchill"></span>&#8457;</p>
+      </div>
+         <div class="spot">
+           <div class="spot1">
+                <picture>
+                 <source srcset="images/spot3-hovenweep.webp" media="(min-width: 35rem)">
+                 <source srcset="images/spot3-square.webp" media="(min-width: 64rem)">
+                 <img src="images/spot3-hovenweep.webp" alt="Hovenweep">
+             </picture>
+             </div>
+           <div class="spot2">
+               <picture>
+                   <source srcset="images/spot2-edge-small.webp" media="(min-width: 35rem)">
+                   <source srcset="images/spot2-square2.webp" media="(min-width: 64rem)">
+                   <img src="images/spot2-edge-small.webp" alt="Edge of the Cedars">
+               </picture>
+           </div>
+           <div class="spot3">
+                 <picture>
+                   <source srcset="images/spot1_square.webp" media="(min-width: 35rem)" >
+                   <source srcset="images/spot1_square.webp" media="(min-width: 64rem)" >
+                   <img src="images/spot1_square.webp" alt="Dinasaur Museum">
+                 </picture>
+           </div>
+        </div>
+   </main>
+
+</body>
+</html>

@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/large.css">
 <script src="js/script.js"></script>
 <script src="js/visits.js"></script>
+<script defer src="js/directory2.js"></script>
 </head>
 <body>
     <div class="banner"><span id="spclmsg"></span></div>
@@ -31,15 +32,27 @@
           <nav>
             <ul id="primaryNav" class="navigation">
               <li><a href="index.html">Home</a></li>
-              <li><a href="directory.html">Directory</a></li>
-              <li><a href="join.html" class="active">Join</a></li>
+              <li><a href="directory.html" class="active">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
               <li><a href="contact.html">Contact</a></li>
               <li><a href="discover.html">Discover</a></li>
           </ul>
         </nav>
     </header>
-    <p>Thank you for joining the Arcana Pansophical. We will contact you via sending soon.</p>
-  </main>
+    <main class="directory">
+        <section class="cards">
+          <h2>Business Directory</h2>
+          <div class="list-view-btn">
+          <button id="listBtn" class="listviewBtn">
+            <img src="images/list.webp" alt="list" class="list" loading="lazy"/>
+          </button>
+          <button id="cardBtn" class="gridviewBtn">
+            <img src="images/grid.webp" alt="grid" class="grid" loading="lazy"/>
+          </button>
+        </div>
+         <div class="cards list-view"></div>
+         </section>
+      </main>
 
 </body>
 </html>
