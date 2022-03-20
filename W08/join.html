@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<script src="js/script.js"></script>
+<script src="js/visits.js"></script>
+</head>
+<body>
+    <div class="banner"><span id="spclmsg"></span></div>
+
+    <header class="clearfix">
+        <picture class="logo">
+            <img src="images/logo.png" alt="logo">
+        </picture>
+
+        <section class="heading">
+            <h1>Arcana Pansophical</h1>
+            <q class="m">Tal’Dorei’s greatest mages</q>
+        </section>
+
+        <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook.svg" alt="facebook" class="fa fa-facebook"/></a>
+        <a href="https://twitter.com"><img src="images/twitter.svg" alt="twitter" class="fa fa-twitter"/></a>
+        </div>
+        
+        <button id="ham" class="hambutton"><span>&#9776;</span>
+          <span class="xbutton">X</span></button>
+          <nav>
+            <ul id="primaryNav" class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="join.html" class="active">Join</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="discover.html">Discover</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="daydate"><p class="time"><span id="currentdate"></span></p></div>
+    <main class="grid-join">
+      <section>
+   <h2>Arcana Pansophical <br/> Membership Application</h2>
+   <form action="thankyou.html" method="get" autocomplete="on">
+    <fieldset>
+    <legend>Applicant Information</legend>
+    <label class="top">First Name*<input type="text" name="fname" required></label>
+    <label class="top">Last Name* <input type="text" name="lname" required></label>
+    <label class="top">Arcane Practice* <input type="text" name="arcane" placeholder="Warlock, Wizard, etc." required></label>
+    <label class="top">How long have you studdied arcana? <input type="text" name="knowledge" required></label>
+  </fieldset>
+  <fieldset class="membership">
+      <legend>Membership Level</legend>
+     <div class="top">Membership Opportunities</div>
+      <div class="membership">
+     <label class="sbs">
+        <input type="radio" name="membership" value="np"> NP Membership</label>
+        <p class="member-message">These memberships have free conections to our resources in Syngorn ...</p>
+  
+      <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+     <p class="member-message">50gp a month gains access to our resources in Rexentrum as well as supplies from Alchemist Oz Gruude (each tier also gains the benefits of the previous tier.) </p>
+  
+      <label class="sbs"><input type="radio" name="membership" value="silver"> Silver membership</label>
+      <p class="member-message">100gp a month allows entry into Vasselheim as well as access to Planerider Ryn's planar travel.</p>
+  
+      <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+      <p class="member-message">250gp a month allows access to all of the Pansophical's resources accross Exandria, this also lays the opportunity for high ranking allies such as Allura Vysoren.</p>
+     </div>
+    </fieldset>
+  <fieldset>
+    <legend>Arcane Skill Set</legend>
+    <label class="top">Please describe your arcane skill set (type of magic, highest spell able to cast, etc.)<textarea id="arcane_skills" name="arcane_skills" rows="6" cols="30"></textarea></label>
+  </fieldset>
+  <input type="hidden" value="Date.now()">
+  <input class="button submitBtn" type="submit" value="Join the Arcana Pansophical">
+  
+  </form>
+  </section>
+  </main>
+
+</body>
+</html>
