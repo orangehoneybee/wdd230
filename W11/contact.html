@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<script src="js/script.js"></script>
+<script src="js/visits.js"></script>
+</head>
+<body>
+    <div class="banner"><span id="spclmsg"></span></div>
+
+    <header class="clearfix">
+        <picture class="logo">
+            <img src="images/logo.png" alt="logo">
+        </picture>
+
+        <section class="heading">
+            <h1>Arcana Pansophical</h1>
+            <q class="m">Tal’Dorei’s greatest mages</q>
+        </section>
+
+        <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook.svg" alt="facebook" class="fa fa-facebook"/></a>
+        <a href="https://twitter.com"><img src="images/twitter.svg" alt="twitter" class="fa fa-twitter"/></a>
+        </div>
+        
+        <button id="ham" class="hambutton"><span>&#9776;</span>
+          <span class="xbutton">X</span></button>
+          <nav>
+            <ul id="primaryNav" class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
+              <li><a href="contact.html class="active">Contact</a></li>
+              <li><a href="discover.html">Discover</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="daydate"><p class="time"><span id="currentdate"></span></p></div>
+  <main class="contacts-grid">
+    <h2 class="team">Arcana Pansophical Contacts</h2>
+    <section class="section-contacts">
+  <div class="general" >
+    <h3>General Information</h3>
+    <h4>Physical Address:</h4>
+    <p>Syngorn, Republic of Tal'Dorei</p>
+    <h4>Mailing Address:</h4>
+    <p>Emerald Citadel<br/>
+        Syngorn, Republic of Tal'Dorei</p>
+    <h4>Contact</h4>
+    <p>Yurek Windkeeper</p>
+     <img src="\images\Syngorn_Map_-_Andy_Law.png">
+</div>
+    <div class="contact-form">
+      <div class="formbox">
+     <div id="feedback"></div>
+      <form method="get" action="thankyou_comments.html" autocomplete="on">
+    <fieldset>
+      <legend><h3>Contact the Pansophical</h3></legend>
+      <label class="top">First and Last Name*<input type="text" name="name" required></label>
+        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <p>&nbsp;</p>
+        <p class="imp">Your comments are important to us!</p>
+        <label class="top">Comments<textarea id="comments" name="comments"  rows="6" cols="30"></textarea></label>
+        <p>&nbsp;</p>
+        <input type="hidden" value="Date.now()">
+        <input class="button submitBtn" type="submit" value="My comments to the Chamber">
+    </fieldset>
+    </form>
+    </div>
+  </div>
+  </section>
+  </main>
+
+</body>
+</html>
