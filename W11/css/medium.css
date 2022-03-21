@@ -43,7 +43,7 @@
     nav#primaryNav {
       display:flex;
       flex-direction: column;
-      background-color: #046fb9;
+      background-color: rgb(78, 8, 84);
       text-align: center;
     
     }

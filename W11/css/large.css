@@ -8,7 +8,7 @@
       right: 0;
       width: 540px;
       text-align: left;
-      background-color:transparent;
+      background-color:rgb(78, 8, 84);
     }
   
   /* Flex *********************/
@@ -18,7 +18,7 @@
   }
   
   nav ul li a {
-    color: aliceblue;
+    color: white;
   }
   
   header {
@@ -82,7 +82,7 @@
     color: aliceblue;
   }
   
-  #dybanner {
+  #spclmsg {
     font-size: 1.2em;
   }
   
