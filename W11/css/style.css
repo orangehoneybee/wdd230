@@ -108,7 +108,9 @@ nav {
 nav ul {
 display: none;
 }
+
 nav ul li a {
+list-style-type: none;
 display: block;
 padding: .8rem 0vw;
 text-decoration: none;
@@ -164,12 +166,10 @@ display:block;
 nav ul.open li a:hover {
   background-color: rgb(92, 10, 99);
   color: white;
-  --d: 75%;
   width: 100%;
 }
 nav ul.open li a:active {
 color: rgb(121, 13, 130);
-  --d: 75%;
   width: 100%;
 }
 #ham span:nth-child(1) {display:block}
