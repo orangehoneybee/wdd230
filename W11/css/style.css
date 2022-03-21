@@ -469,8 +469,8 @@ section.weather{
     font-size: .9em;
 }
 .weather:nth-child(even){
-  background-color:white;
-  color:rgb(243, 114, 8);
+  background-color:rgb(78, 89, 102);
+  color:white;
 }
 .wbox {
   padding: 10px;
