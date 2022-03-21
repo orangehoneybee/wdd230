@@ -1,20 +1,210 @@
-@media (min-width: 768px) and (max-width: 1024px) {
-  
+@media only screen and (min-width: 35rem) {
+
+    /* Flex *********************/
+    
+    header {
+      max-height: 80px;
+      width: 100%;
+      position:relative;
+      }
+    
+    header picture.logo {
+      justify-content: right;
+      min-width: 100px;
+    }
+    header picture.logo img {
+      justify-content: right;
+        max-width: 75px;
+    
+    }
+    .heading {
+      margin-top: 0;
+      justify-content:flex-start;
+      min-width: 250px;
+      text-align: left;
+      margin-top: 1vh;
+      padding: 2px 0;
+    }
+    .heading h1 {
+      font-size: 1.8em;
+    }
+    .heading span {
+      font-size: 1.2em
+    }
+    
+    .social {justify-content: flex-start;
+      padding-right: 0;order: 0}
+    
+     #dybanner {
+      font-size: 1em;
+    }
+    
+    /* ************************* NAVIGATION - MEDIUM ***********************  */
+    nav#primaryNav {
+      display:flex;
+      flex-direction: column;
+      background-color: #046fb9;
+      text-align: center;
+    
+    }
+    
     nav ul {
-        flex-direction: row;
-        justify-content: center;
+      display:none;
     }
-    
-    nav li {
-        margin-right: 1rem;
-        display: flex;
+    nav ul.open {
+        display:block;
     }
-    
-    nav li:first-child {
+    nav ul li {
+      flex: 1 1 auto;
+    }
+    nav ul.open {
+        display:block;
+    }
+    nav ul li a {
+      display:block;
+      border: none;
+      padding: .5rem 1rem;
+      color: aliceblue;
+    }
+    .home-grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 200px 240px 200px 220px;
+        min-width: 32.5rem;
+        margin:0;
+        padding:0;
+        row-gap: 10px;
+        grid-gap: 10px;
+    }
+    .hero {
+      grid-row: 1/2;
+      grid-column: 1/4;
+      background-size: cover;
+      border:1px solid #333;
+    }
+    /* ***************************************** Join page ******************* */
+.grid-join section{
+    max-width: 500px;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  form label.top input, form label.top select, form label.top textarea {
+    font-size: 1.2rem;
+    min-width: 80%;
+    max-width: 80%;
+  }
+  
+  .grid-join section {
+    min-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+  }
+  form {
+    align-self: center;
+    text-align: left;
+    min-width: 500px;
+    max-width: 500px;
+  }
+  form fieldset {
+    min-width: 90%;
+  }
+  form label.top input, form label.top select, form label.top textarea {
+    font-size: 1.2rem;
+    min-width: 80%;
+    max-width: 80%;
+  }
+  div.membership{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 2vw;
+  }
+  label {
+    grid-column: 1;
+  }
+  p.member-message {
+    grid-column: 2;
+    font-weight: 400;
+    margin: 5px;
+    text-align: left;
+  }
+  /* ****************************** Thank-you page ********************** */
+  
+  
+  .grid-ty section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px;
+    padding: 25px;
+    max-width:500px;
+    justify-content: center;
+    padding: 25px;
+    margin: auto;
+    border: 3px solid #000;
+    background-color: aliceblue;
+  }
+  
+  .grid-ty section picture {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  grid-ty section picture img {
+    width: 500px;
+    height: 400px;
+  }
+  grid-ty h2 {
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 5rem;
+  }
+  grid-ty section p {
+    grid-column: 1;
+    grid-row: 2;
+  
+  }
+  .grid-ty section p {
+    grid-column: 1;
+    grid-row: 3;
+    display:block;
+    justify-content: center;
+    width: 500px;
+    background-color: white;
+  }
+  
+  section.stats {
+    display:block;
+  }
+  }
+  /* **************************** MEDIUM VIEW ********************* */
+  @media only screen and (min-width:32rem) {
+  
+    .list-view section {
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      font-size: .9em;
+    }
+  
+    .card-view section p3 {
+         display: block;
+         padding: 5px 20px;
+    }
+  
+    .list-view section p1,p3,p4 {
+        padding: 5px;
+        text-align: left;
+        color: black;
+    }
+    .card-view section p1,p2,p3,p4 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: black;
+    }
+    .list-view p2, p5, mem {
         display: none;
     }
-
-    nav li:last-child {
-        margin-right: 0;
+    .card-view {
+    grid-template-columns: repeat(2, 1fr);
     }
-}
+  
+  }
