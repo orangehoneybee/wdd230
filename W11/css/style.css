@@ -456,7 +456,7 @@ section.grid-ty  p {
 .weather {text-align: left}
 
 div.weather {
-  color: #2C2F33;
+  color:white;
 }
 section.weather{
     display: flex;
