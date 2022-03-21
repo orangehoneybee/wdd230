@@ -40,6 +40,26 @@ body {
     font-size:1vw;
   }
 
+  div.daydate {
+    display:flex;
+    text-align: center;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    background-color:rgb(78, 89, 102);
+    font-size: .9em;
+    padding: 0;
+    margin: 0;
+}
+p.time {
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    margin:5px auto;
+    background-color:rgb(78, 89, 102);
+    border:1px solid rgb(78, 8, 84);
+}
+.visits {color: white}
+
 /* NAVIGATION ***************** */
 
 button#ham {
