@@ -6,6 +6,17 @@ body {
     background-color: #2C2F33;
   }
 
+  .home-grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px 220px 225px 225px;
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: #2C2F33;
+    background-color: #2C2F33;
+}
+
   .banner {
     text-align: center;
     background-color:rgb(78, 89, 102);
@@ -517,7 +528,7 @@ section.weather{
     flex-direction: row;
     align-items: center;
     max-height: 25px;
-    color: #000;
+    color: white;
 
 }
 hr .color {

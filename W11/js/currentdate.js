@@ -6,9 +6,10 @@ document.getElementById('currentdate').textContent = new Date().toLocaleDateStri
 
 // special msg for mon and tues
 
-  var currentDate = new Date();
-  weekdayValue = currentDate.getDay();
-if (weekdayValue == 1 || weekdayValue ==2){
-  spclmsg = "🤝🏼Come join us for the chamber meet and greet on Conthsen 2 hours past sunset";
+const d = new Date();
+const dayOfWeek = d.getDay()
+let spclmsg;
+if (dayOfWeek === 1 || dayOfWeek === 2) {
+    spclmsg = "🤝🏼Come join us for the chamber meet and greet Wednesday at 7:00pm";
 }
-document.querySelector('#spclmsg').textContent = spclmsg;
+document.querySelector('#spclmsgr').textContent = spclmsg;
