@@ -35,22 +35,21 @@ body {
 .article img {
   grid-column: 1;
   grid-row: 1/2;
+  max-width: 25%;
+  max-height: 25%;
 }
 
 .article h3{
   grid-column: 1;
   grid-row: 2/3;
   text-align: left;
+  color: white;
 }
 
 .article p {
   grid-column: 1;
   grid-row: 3/4;  
   font-size: .9em;
-}
-.article img {
-  max-width: fit-content;
-  max-height: fit-content;
 }
 
   .banner {
