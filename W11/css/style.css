@@ -635,7 +635,7 @@ div.general h4 {
   padding: 2px 8px 2px 5px;
   font-size: 1.3em;
   margin-bottom: 0px;
-  color:rgb(121, 13, 130);
+  color:rgb(255, 255, 255);
 }
 div.general p {
   padding: 2px 8px 2px 10px;
@@ -650,7 +650,7 @@ div.general p {
   flex-direction: column;
   background-color: #2C2F33;
   padding: 5px;
-  border:1px solid rgb(92, 10, 99);
+  border:1px solid rgb(255, 255, 255);
   border-radius: 4px;
   min-width: 100%;
   max-width: 260px;
@@ -792,13 +792,13 @@ main.directory {
   font-size: 1.3em;
   font-weight: bold;
   background-color: rgb(78, 89, 102);
-  color:#2C2F33;
+  color:#ffffff;
 }
 .list-view p {
   justify-items: left;
 }
 .list-view  a {
-  color:rgb(78, 89, 102);
+  color:rgb(255, 255, 255);
   
 }
 .list-view a:visited {
