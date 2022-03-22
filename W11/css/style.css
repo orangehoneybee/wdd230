@@ -48,6 +48,10 @@ body {
   grid-row: 3/4;  
   font-size: .9em;
 }
+.article img {
+  max-width: fit-content;
+  max-height: fit-content;
+}
 
   .banner {
     text-align: center;
