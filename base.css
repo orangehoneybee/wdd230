@@ -1,0 +1,447 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #FFFFFB;   /* Baby Powder White */
+    --secondary-color: #3066BE; /* Blue */
+    --accent1-color: #7F675B;  /* Brown */
+    --accent2-color: #B388EB;  /* Lavender */
+    --accent3-color: #D1D3DB; /*   light gray  */
+  
+    /* change the values below to your chosen font(s) */
+    font-family: 'Amiri', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+header {
+    border-bottom: 1px solid #3066BE;
+    padding-bottom: 10px;
+}
+
+h1,h2,h3 {
+	font-family: 'Great Vibes', cursive;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+/*nav ul{
+    list-style-type: none;
+}*/
+
+nav {
+    background-color: #FFFFFB;
+	text-align: right;
+	display: flex;
+	flex-direction: row;
+    border-radius: 10px;
+    justify-content: center;
+}
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #FFFFFB;
+    
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.5rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	/*content: "🍔 ";*/
+    content: "Menu";
+}
+
+.navigation a:hover {
+	color: yellow;
+	background-color: #3066BE;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+
+
+body {
+    max-width: 1400px;
+    background-color: #FFFFFB;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+/*  Home Page  */
+#welcome {
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Welcome description text and image */
+#welcome > div:nth-child(1) {
+  padding: 0 1em;
+}
+#mainImgDiv {
+  max-width: 50%;
+  margin: 0 auto;
+}
+#mainImgDiv img{
+  align-content: center;
+}
+
+
+
+/*  Temples Page  */
+
+
+
+
+/*  Contacts Page  */
+.contact {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 300px;
+}
+
+.contact div {
+  padding: 30px;
+}
+
+
+
+
+/*  Reservations Page  */
+.reserve {
+    margin: 0 auto;
+	  width:100%;
+    max-width: fit-content;
+    
+}
+
+.pics {
+  display: none;
+}
+
+form {
+  margin: .5rem;
+  min-width: 350px;
+  /*background-color: #D1D3DB;*/
+
+}
+
+form fieldset {
+  margin: 1rem;
+  border: 2px solid #3066BE;
+  border-radius: 10px;
+  padding: .5rem 2.5%;
+  padding-inline-end: 2rem;
+}
+
+form legend {
+  color: white;
+  margin: 0 1rem;
+  padding: .5rem;
+  background-color: #63c2f1;
+  border-radius: 10px;
+  text-align: left;
+}
+
+form label.top, form div {
+  display: block;
+  text-align: left;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  /*-webkit-appearance: none;*/
+  display: block;
+  font-size: 1rem;
+  border: solid 1px green;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #FFFFFB;
+}
+
+form label.sbs {
+  display:block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form textarea {
+  width: 88%;
+  background-color: rgba(0,0,0,0.1);
+  padding: .2rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #B388EB;
+  color: black;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: .5em auto;
+  width: 100%;
+}
+
+form input.submitBtn:hover {
+  background: #7F675B;
+  /*background: linear-gradient(145deg, rgba(217,164,4,1) 24%, rgba(217,41,41,1) 49%, rgba(89,2,2,1) 78%);*/
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+form label.top input:required {
+  border: rgb(242, 125, 125) solid 3px;
+}
+form label.top select:required {
+  border: rgb(242, 125, 125) solid 3px;
+}
+
+
+.level {
+  font-weight: bold;
+}
+
+/*.reserveform {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    max-width: 400px;
+}
+
+.bookme {
+  margin: 1em;
+  justify-content: center;
+  align-content: center;
+}*/
+
+/*  Services page */
+.box{
+    background-color: #E8E9ED;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    max-width: 28em;
+    
+    align-items: center;
+    font-family: "Amiri", sans-serif, Helvetica;
+}
+
+.box h3{
+    background-color: #607196;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.box h4 {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box p a{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    padding: 10px;
+    border-radius: 4%;
+    width: 80%;
+    margin: 0 auto;
+    /*max-width: 24em;*/
+}
+
+.lists {
+    margin-left: 50px;
+    margin-right: 30px;
+    text-align: left;
+    font-size: larger;
+    }
+
+.mobileimg{
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 2px 8px 16px 2px black;
+}
+  
+  .discussion {
+      margin: 0px;
+      padding: 10px;
+      text-align: left;
+
+  }
+  .services h4 {
+    font-size: 1.75em;
+}
+
+.box form {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  
+  .box form fieldset {
+    margin: 2rem 0;
+    
+    border: 1px solid #011640;
+    border-radius: 10px;
+    padding: .5rem 2.5%;
+    max-width: 25rem;
+    padding-inline-end: 2rem;
+  }
+  
+  .box form legend {
+    color: white;
+    margin: 0 1rem;
+    padding: .5rem;
+    background-color: #011640;
+    border-radius: 10px;
+  }
+  
+  .box form label.top, form div {
+    display: block;
+    padding-top: .25rem;
+    padding-right: 0rem;
+    color: #355B8C;
+    font-size: .8rem;
+  }
+  
+  .box form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+  }
+  
+  .box form label.sbs {
+    display:block;
+    padding: .75rem 0;
+    color: #555;
+    margin-left: 2rem;
+  }
+  
+  .box form textarea {
+    width: 88%;
+    background-color: rgba(0,0,0,0.1);
+    padding: .2rem;
+  }
+  
+  .box form input.submitBtn {
+    border: none;
+    background-color: #B388EB;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+  }
+  
+  .box form input.submitBtn:hover {
+    background-color: #BF6F7E97;
+    cursor: pointer;
+  }
+  
+  .box form label.top input:required {
+    border: #F26F63 solid 2px;
+  }
+
+
+
+/* Thank You page */
+.thankyou {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thankyou img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .thankyou h2 {
+    text-align: center;
+    font-size: 2.5em;
+    }
+  
+  .thankyou p {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+
+
+footer{
+    font-family: "Amiri", serif;
+    font-weight: 500;
+    background-color: #FFFFFB;
+    color: black;
+    margin-bottom: 25px;
+    padding: 20px;
+    /*border-radius: 10px;*/
+    text-align: center;
+    border-top: 1px solid #3066BE;
+    
+}
+
+
+#footaddress{
+    /*border-bottom: 1px solid rgba(255,255,255,0.5);*/
+    border-bottom: 1px solid #3066BE;
+    padding-bottom: 20px;
+}

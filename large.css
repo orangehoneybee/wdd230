@@ -1,0 +1,86 @@
+@media only screen and (min-width: 62.5em) {
+
+
+    h1 {
+        font-size: 4em;
+    }
+    
+    h2 {
+        font-size: 3em; 
+    }
+
+    header {
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+  
+
+
+
+
+
+
+
+/*  Home Page  */
+#welcome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*flex-flow: row;*/
+    margin-top: 5em;
+  }
+  #welcomeText {
+      grid-column: 1;
+      float: left;
+  }
+  #mainImgDiv {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+
+
+/*  Temples Page  */
+
+
+
+
+    /* Services page */
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .services h4 {
+        font-size: 2em;
+    }
+
+
+    /* Footer */
+
+    #footaddress{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    .logo-img{
+        width: 100%;
+    }
+
+    footer img{
+        grid-column: 1 / 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #address{
+        margin-top: 20px;
+        grid-column: 2 / 3;
+    }
+    #footemail{
+        margin-top: 20px;
+        grid-column: 3 / 4;
+    }
+}
