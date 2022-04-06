@@ -21,11 +21,11 @@
         "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Friday, 30 September 2022 (Limited Operations)"}
-            {"date" "Saturday, 1 October 2022"}
-            {"date" "Thursday, 24 November 2022"}
-            {"date" "Friday, 23 December 2022 (Limited Operations)"}
-            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+            {"date" :"Friday, 30 September 2022 (Limited Operations)"},
+            {"date" :"Saturday, 1 October 2022"},
+            {"date" :"Thursday, 24 November 2022"},
+            {"date" :"Friday, 23 December 2022 (Limited Operations)"},
+            {"date" :"Saturday, 24 December 2022 - Monday, 26 December 2022"}
         ]
       },
       {
@@ -49,12 +49,12 @@
         "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Monday, 1 August 2022 - Monday, 12 September 2022"}
-            {"date" "Saturday, 1 October 2022"}
-            {"date" "Wednesday, 23 November 2022 (Limited Operations)"}
-            {"date" "Thursday, 24 November 2022"}
-            {"date" "Saturday, 24 December 2022"}
-            {"date" "Saturday, 31 December 2022 (Limited Operations)"}
+            {"date" "Monday, 1 August 2022 - Monday, 12 September 2022"},
+            {"date" "Saturday, 1 October 2022"},
+            {"date" "Wednesday, 23 November 2022 (Limited Operations)"},
+            {"date" "Thursday, 24 November 2022"},
+            {"date" "Saturday, 24 December 2022"},
+            {"date" "Saturday, 31 December 2022 (Limited Operations)"},
         ]
       },
       {
@@ -78,11 +78,11 @@
         "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Monday, 28 March 2022 - Monday, 23 May 2022"}
-            {"date" "Monday, 26 September 2022 - Monday, 24 October 2022"}
-            {"date" "Thursday, 24 November 2022"}
-            {"date" "Saturday, 24 December 2022"}
-            {"date" "Saturday, 31 December 2022"}
+            {"date" :"Monday, 28 March 2022 - Monday, 23 May 2022"},
+            {"date" :"Monday, 26 September 2022 - Monday, 24 October 2022"},
+            {"date" :"Thursday, 24 November 2022"},
+            {"date" :"Saturday, 24 December 2022"},
+            {"date" :"Saturday, 31 December 2022"}
         ]
       },
       {
@@ -106,10 +106,10 @@
         "phase": "TEMPLE IS RETURNING TO NORMAL OPERATIONS",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Monday, 18 April 2022 - Monday, 25 April 2022"}
-            {"date" "Tuesday, 21 June 2022 (Limited Operations)"}
-            {"date" "Monday, 19 September 2022 - Monday, 19 December 2022"}
-            {"date" "Saturday, 24 December 2022"}
+            {"date" :"Monday, 18 April 2022 - Monday, 25 April 2022"},
+            {"date" :"Tuesday, 21 June 2022 (Limited Operations)"},
+            {"date" :"Monday, 19 September 2022 - Monday, 19 December 2022"},
+            {"date" :"Saturday, 24 December 2022"}
         ]
       },
       {
@@ -133,11 +133,11 @@
         "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Friday, 30 September 2022 (Limited Operations)"}
-            {"date" "Saturday, 1 October 2022"}
-            {"date" "Thursday, 24 November 2022"}
-            {"date" "Friday, 23 December 2022 (Limited Operations)"}
-            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+            {"date" :"Friday, 30 September 2022 (Limited Operations)"}
+            ,{"date" :"Saturday, 1 October 2022"}
+            ,{"date" :"Thursday, 24 November 2022"}
+            ,{"date" :"Friday, 23 December 2022 (Limited Operations)"}
+            ,{"date" :"Saturday, 24 December 2022 - Monday, 26 December 2022"}
         ]
       },
       {
@@ -161,11 +161,11 @@
         "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Friday, 30 September 2022 (Limited Operations)"}
-            {"date" "Saturday, 1 October 2022"}
-            {"date" "Thursday, 24 November 2022"}
-            {"date" "Friday, 23 December 2022 (Limited Operations)"}
-            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+            {"date" :"Friday, 30 September 2022 (Limited Operations)"}
+            ,{"date" :"Saturday, 1 October 2022"}
+            ,{"date" :"Thursday, 24 November 2022"}
+            ,{"date" :"Friday, 23 December 2022 (Limited Operations)"}
+            ,{"date" :"Saturday, 24 December 2022 - Monday, 26 December 2022"}
         ]
       },
       {
@@ -189,11 +189,11 @@
         "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Friday, 30 September 2022 (Limited Operations)"}
-            {"date" "Saturday, 1 October 2022"}
-            {"date" "Thursday, 24 November 2022"}
-            {"date" "Friday, 23 December 2022 (Limited Operations)"}
-            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+            {"date" :"Friday, 30 September 2022 (Limited Operations)"}
+            ,{"date" :"Saturday, 1 October 2022"}
+            ,{"date" :"Thursday, 24 November 2022"}
+            ,{"date" :"Friday, 23 December 2022 (Limited Operations)"}
+            ,{"date" :"Saturday, 24 December 2022 - Monday, 26 December 2022"}
         ]
       },
       {
@@ -217,7 +217,7 @@
         "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
         "schedule": "All ordinances are available by appointment only",
         "closures": [
-            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" :"Friday, 30 September 2022 (Limited Operations)"}
             {"date" "Saturday, 1 October 2022"}
             {"date" "Thursday, 24 November 2022"}
             {"date" "Friday, 23 December 2022 (Limited Operations)"}
